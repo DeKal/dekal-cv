@@ -1,0 +1,144 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{orange}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Phat}{Huu Ho}
+\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+\address{Ho Chi Minh City, Vietnam}{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+84~906323761}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{hohuuphat22@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{phatho.netlify.com}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Software Engineer}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section {About Me}
+\cventryy{}{}{Exposing to problem-solving at a very young age, I passionate with disentangling sticky situations that can occur in software engineer as well as real life. My little hobby is to find the solution for competitive problems using an optimized algorithm. I also have a great interest in software architecture, and always seek to learn new things.}{}{}{}
+
+
+\section{Education}
+\cventry{2013--2017}{Bachelor of Computer Science}{University of Science}{Ho Chi Minh City}{\textit{}}{}  % arguments 3 to 6 can be left empty
+\cvitemwithcomment{English}{TOEFL ibt 85 pts}{}
+
+\section{Working Experience}
+
+\cventry{3/2019 -- 5/2019}{Side Project}{Freelancer}{Ho Chi Minh city}{}{
+During my free time, I'm in charge of a freelance team to develop a Real-time Web Application using ReactJs + Webpack. Then the application was deployed by Docker into client server. It was a good and refreshing experience.
+\begin{itemize}
+    \item Technical  skills: React/Redux, Docker, NodeJS, Webpack.
+\end{itemize}
+\break
+}
+
+\cventry{4/2018 -- now}{DEK Technologies}{Software Developer}{Ho Chi Minh city}{}{
+As a software engineer at DEK, I'm in charge of developing a web application, which is the analysis system helping users to have a good visualization of the statistics of test cases executed by Jenkins. In addition, I play the role of Guardian (small Scrum Master) in order to assist Scrum Master in helping the team. 
+\begin{itemize}
+    \item Technical  skills: HTML, CSS, JS, NodeJS, Kafka, Docker, Cassandra.
+\end{itemize}
+\break
+}
+
+\cventry{7/2017 -- 4/2018}{Global Cybersoft}{Fresher}{Ho Chi Minh city}{}{
+As a software engineer at Global Cybersoft, I am involved with maintaining and developing new features for the Java Swing project derived from the company in Japan. Generally, tasks including adding function, drawing design, writing test case and fixing bugs found from customers are my responsibilities.
+\begin{itemize}
+    \item Technical  skills: Java, Java Swing.
+\end{itemize}
+\break
+}
+\cventry{11/2016 -- 2/2017}{YBABentre}{Web Developer}{Ho Chi Minh city}{}{
+Website team leader for Youth Business Association of Ben Tre. Operate and assemble the team using Wordpress template with the purpose of building the website based on customers' requirements and designs. 
+\begin{itemize}
+    \item Technical skills: Wordpress template, HTML, CSS, JS.
+\end{itemize} 
+\break
+}
+
+\cventry{6/2016 -- 10/2016}{Global CyberSoft}{Intern as Web Developer}{Ho Chi Minh city}{}{
+Work as the web developer for the surveillance system project. Using Spring MVC framework in combination with Hibernate and PostgreSQL, we strive to build the system in order to display the recorded images from the camera after running them through the CV algorithm.
+\begin{itemize}
+    \item Technical skills: Spring MVC, Java, Hibernate framework, PostgreSQL, HTML/CSS, JQuery, JavaScript, Thymeleaf Bootstrap Framework.
+\end{itemize}
+\break
+}
+\cventry{2/2016 -- 5/2016}{SmartApp Technology}{Intern}{Ho Chi Minh city}{}{
+Working on the multi-platform framework Angular-JS, I handle the task of producing the application to summarize agency's information as Masan company's requirement.
+\begin{itemize}
+    \item Technical skills: Angular-JS, HTML/CSS, JQuery.
+\end{itemize}
+\break
+}
+
+\section{Research  Work}
+\cventry{3/2017--9/2017}{University of Science}{Thesis for graduate}{Ho Chi Minh city}{}{
+First off, our thesis targeted the data from VNExpress's comment for sentiment classification. The data was collected from comments into the database automatically at the specific time of the day by the crawler built in the server. After the crawling process, with SVM, we labeled data into sentiment values (positive, negative and neutral). Finally, we build a web system using Java in order to extract the evaluated data.
+\begin{itemize}
+    \item Key words: Sentiment Analysis, Crawler, Online Press, Comments
+\end{itemize}
+\break
+}
+
+
+\section{Skills}
+\cvdoubleitem{Programming Languages}{Java, ReactJs, HTML/CSS, JQuery, NodeJs, Docker, Webpack, Kafka}{}{}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+\end{document}
+
+
+%% end of file `template.tex'.
